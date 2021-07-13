@@ -17,36 +17,28 @@ body{
     height: 677px;
     transition: all 0.8s linear;
 }
-.button:hover {
-    background-color: #490185;
-    border: 5px solid white;
-    padding: 5px 24px 5px 24px;
+.banner:hover{
+    background-color: #6601b8;
 }
+
 .navigation-bar{
     display: flex;
     justify-content: space-between ;
     padding-top: 42px;
-    
+    margin-left: 157px;
+    margin-right: 124;
 }
-.banner:hover{
-    background-color: #6601b8;
-}
+
 .menu{
     display: flex;
-    margin-left: 156px;
+    margin-right: 124px;
 }
 .menu div{
     padding-right: 30px;
     color: white;
     font-weight: 400px;
 }
-.button{
-    margin-left: 157px;
-    padding: 10px 24px 10px 24px;
-    background-color: #E02C6D;
-    text-decoration: none;
-    color: white;
-}
+
 .featured{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -55,8 +47,8 @@ body{
 }
 h1{
     font-size: 64px;
-    margin-left: 157px;
     color: white;
+    margin-left: 157px;
 }
 
 .banner img{
@@ -65,4 +57,50 @@ h1{
     width: 556.01px;
     padding-top: 67px;
     
+}
+.fas{
+    padding-right: 10px ;
+    padding-left: 10px
+    hight 44px;
+}
+.button{
+    
+    padding: 10px 24px 10px 24px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    margin-left: 157px;
+}
+
+
+.button:hover {
+    background-color: #490185;
+    border: 5px solid white;
+    padding: 5px 19px 5px 19px;
+}
+
+/* ---------------
+  player showcase 
+-----------------*/
+.player-showcase{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 93px;
+    margin-right: 210px;
+}
+
+.player{
+    margin: 13.5px 15px;
+    border: 1px solid black;
+    filter: drop-shadow(0 0 0 black);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.picture img{
+    height: 90%;
+    width: 94%;
+    margin: 10px;
 }
