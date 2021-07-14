@@ -217,6 +217,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 63px;
 }
 .footer-element{
     width: 483.87px;
@@ -315,6 +316,7 @@ footer{
     /* Footer area */
     .footer-block{
         margin-top: 54px;
+        margin-bottom: 187px;
     }
     .footer-elements img{
         width: 275px;
