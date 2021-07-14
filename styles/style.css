@@ -121,10 +121,8 @@ h1{
 .highlight-panels{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 427px;
     width: 100%;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 .highlight-item{
     padding-left: 182px;
@@ -277,10 +275,50 @@ footer{
     .player-showcase{
         margin-left: 0px;
         grid-template-columns: 1fr;
-        width: 100%;
+        width: 360px;
     }
     .player img{
         height: 256px;
         width: 300px;
     }
+
+    /* highlight-panels */
+    .highlight-panels{
+        grid-template-columns: 1fr;
+        justify-content: left;
+        width: 100%;
+    }
+    .highlight-item{
+        padding: 29px 15px;
+       
+    }
+    .highlight-item img{
+        height: 248px;
+        width: 328px;
+    }
+    .highligts-title{
+        font-size: 30px;
+    }
+    
+    /* scoreboard */
+    .latest-score{
+        grid-template-columns: 1fr;
+        height: auto;
+        padding-bottom: 30px;
+        margin-top: 54px;
+    }
+    .scoreboard{
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+
+    /* Footer area */
+    .footer-block{
+        margin-top: 54px;
+    }
+    .footer-elements img{
+        width: 275px;
+
+    }
+
  }
