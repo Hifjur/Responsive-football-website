@@ -272,5 +272,15 @@ footer{
         width: 329px;
         margin-left: 15px;
     }
-
+    
+    /* player Showcase area */
+    .player-showcase{
+        margin-left: 0px;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .player img{
+        height: 256px;
+        width: 300px;
+    }
  }
