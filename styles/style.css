@@ -241,3 +241,36 @@ h3{
 footer{
     margin-top: 20px;
 }
+
+/*---------------
+ Media Quaries
+ ---------------*/
+
+ @media only screen and (max-width:688px){
+     
+    /* Banner design */
+    .navigation-bar{
+        display: none;
+    }
+    .banner{
+        width: 100%;
+    }
+    .featured{
+        grid-template-columns: 1fr;
+        justify-content: left;
+    
+    }
+    h1{
+        font-size: 36px;
+        margin-left: 16px;
+    }
+    .button{
+        margin-left: 19px;
+    }
+    .banner img{
+        height: 259.17px;
+        width: 329px;
+        margin-left: 15px;
+    }
+
+ }
