@@ -314,6 +314,95 @@ footer{
     }
     .scoreboard{
         padding-left: 20px;
+        padding-top: 50px;
+    }
+    #vs-icon{
+        padding-left: 33%;
+    }
+
+    /* Footer area */
+    .footer-block{
+        margin-top: 54px;
+        margin-bottom: 187px;
+    }
+    .footer-elements img{
+        width: 275px;
+
+    }
+
+ }
+
+ /* -------------------------
+  Tablet devices/ i-pad
+  ---------------------------*/
+  @media only screen and (min-width:689px) and (max-width:992px){
+     
+    /* Banner design */
+    .navigation-bar{
+        display: none;
+    }
+    .banner{
+        width: 100%;
+    }
+    .featured{
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    
+    }
+    h1{
+        font-size: 36px;
+        margin-left: 16px;
+    }
+    .button{
+        margin-left: 19px;
+    }
+    .banner img{
+        height: 259.17px;
+        width: 329px;
+        margin-left: 15px;
+    }
+    
+    /* player Showcase area */
+    .player-showcase{
+        margin-left: 0px;
+        grid-template-columns: 1fr 1fr;
+        width: 360px;
+    }
+    .player img{
+        height: 256px;
+        width: 300px;
+    }
+
+    /* highlight-panels */
+    .highlight-panels{
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        width: 100%;
+    }
+    .highlight-item{
+        padding: 29px 15px;
+       
+    }
+    .highlight-item img{
+        height: 248px;
+        width: 328px;
+    }
+    .highligts-title{
+        font-size: 30px;
+    }
+    
+    /* scoreboard */
+    .latest-score{
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        padding-bottom: 150px;
+        margin-top: 54px;
+    }
+    #vs-icon{
+        display: none;
+    }
+    .scoreboard{
+        padding-left: 20px;
         padding-top: 30px;
     }
 
