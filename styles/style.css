@@ -151,3 +151,37 @@ h1{
 .desctiption{
     padding-left: 0px;
 }
+
+/*----------------
+  footer-section 
+------------------*/
+
+.footer-block{
+    margin-top: 217px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-element{
+    width: 483.87px;
+    height: 213px;
+    margin-top: 20px;
+}
+
+.footer-elements a{
+    color: rgb(255, 255, 255);
+    background-color: gray;
+    padding: 6px;
+    border-radius: 100%;
+    margin-left:7px;
+    margin-right: 7px;
+}
+.fab{
+    padding: 3px;
+}
+
+footer{
+    margin-top: 20px;
+}
