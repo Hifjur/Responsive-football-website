@@ -256,7 +256,7 @@ footer{
     }
     .featured{
         grid-template-columns: 1fr;
-        justify-content: left;
+        justify-content: center;
     
     }
     h1{
@@ -286,7 +286,7 @@ footer{
     /* highlight-panels */
     .highlight-panels{
         grid-template-columns: 1fr;
-        justify-content: left;
+        justify-content: center;
         width: 100%;
     }
     .highlight-item{
