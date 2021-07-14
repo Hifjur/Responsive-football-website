@@ -46,12 +46,12 @@ body{
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    row-gap: 20px;
+    column-gap: 20px;
 }
 h1{
     font-size: 64px;
     color: white;
-    margin-left: 157px;
+    margin-left: 157px;    
 }
 
 .banner img{
@@ -59,8 +59,6 @@ h1{
     height: 438px;
     width: 556.01px;
     padding-top: 153px;
-    padding-top: 207px;
-    
 }
 .fas{
     padding-right: 10px ;
@@ -110,7 +108,46 @@ h1{
 }
 
 
-.bio{
+.bio , .desctiption{
     padding: 10px 15px;
     font-weight: 300;
+}
+
+/* ---------------------
+    highlights Panels  
+------------------------*/
+
+.highlight-panels{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 427px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.highlight-item{
+    padding-left: 182px;
+    padding-right: 156px;
+    padding-top: 165px;
+    /* margin-left: 69px; */
+}
+
+.highlight-item img{
+    height: 427px;
+    width: 567px;
+
+}
+
+.highligts-title{
+    color: black;
+    font-size: 50px;
+    margin-left: 0px;
+    
+}
+
+.highlight-panels>.highlight-item>.button{
+    margin-left: 0px;
+}
+.desctiption{
+    padding-left: 0px;
 }
