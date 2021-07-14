@@ -19,7 +19,7 @@ body{
     transition: all 0.8s linear;
 }
 .banner:hover{
-    background-color: #6601b8;
+    background-color: #6601b8; /* Changes color  */
 }
 
 .navigation-bar{
@@ -33,7 +33,7 @@ body{
 }
 
 .menu{
-    display: flex;
+    display: flex; /*Items in the navigaion bar*/
     margin-right: 124px;
 }
 .menu div{
